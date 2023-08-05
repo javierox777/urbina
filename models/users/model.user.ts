@@ -1,5 +1,5 @@
 import {Schema, model} from 'mongoose'
-import { user } from '../controllers/interfaces/interface.user'
+import { user } from '../../controllers/interfaces/interface.user'
 
 const schemaUser:Schema = new Schema({
     email:String,

@@ -1,4 +1,4 @@
-import users from '../../models/model.user'
+import users from '../../models/users/model.user'
 import { Request, Response, RequestHandler } from 'express'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'

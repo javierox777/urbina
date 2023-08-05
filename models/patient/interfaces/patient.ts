@@ -6,5 +6,6 @@ export interface Patient {
     diseases:[],
     email:String,
     password:String,
-    recomentations:String
+    recomentations:String,
+    schedule:String
 }

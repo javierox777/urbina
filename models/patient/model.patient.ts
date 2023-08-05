@@ -11,6 +11,8 @@ const patientSchema = new Schema({
     email:String,
     password:String,
     postoperatorio:String,
+    schedule:String,
+    createAt:Date
       
 })
 
